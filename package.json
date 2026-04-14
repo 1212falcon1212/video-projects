@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "^4.0.448",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.448"
@@ -23,6 +24,9 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render": "remotion render SkypeakReel-Light out/skypeak-light.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4",
+    "render:light": "remotion render SkypeakReel-Light out/skypeak-light.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4",
+    "render:dark": "remotion render SkypeakReel-Dark out/skypeak-dark.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"
   }
 }

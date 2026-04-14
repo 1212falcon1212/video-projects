@@ -5,3 +5,13 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Local-only working folders
+.remember/
+sendgb-*/
+tassarım photo/
+
+# Large media assets — store outside git
+public/assets/images/
+public/assets/videos/
+public/assets/sfx/
