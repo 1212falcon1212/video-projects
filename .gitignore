@@ -11,10 +11,8 @@ out
 sendgb-*/
 tassarım photo/
 
-# Large media assets — store outside git
-public/assets/images/
-public/assets/videos/
-public/assets/sfx/
+# Large media assets — Git LFS ile takip ediliyor (bkz. .gitattributes)
+# Yeni binary tür eklersen .gitattributes'a da LFS kuralı ekle.
 
 # Local Claude settings
 .claude/settings.local.json

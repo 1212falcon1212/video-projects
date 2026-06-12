@@ -5,6 +5,10 @@
   "repository": {},
   "license": "UNLICENSED",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "@remotion/cli": "4.0.448",
     "@remotion/google-fonts": "^4.0.448",
