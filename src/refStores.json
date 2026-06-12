@@ -1,0 +1,166 @@
+[
+  {
+    "key": "pharmacy",
+    "name": "İ-Depo",
+    "vertical": "Dermokozmetik",
+    "color": "#0390b1",
+    "accent": "#06b6d4",
+    "text": "#FFFFFF",
+    "logo": "assets/stores/pharmacy/logo.png",
+    "products": [
+      {
+        "img": "assets/stores/pharmacy/p1.webp",
+        "name": "La Joliesse Yüz ve Vücut Güneş Kremi Hyalüronik Asit SPF 30+ 100 ml",
+        "price": "211.86"
+      },
+      {
+        "img": "assets/stores/pharmacy/p2.webp",
+        "name": "Ducray Keracnyl UV SPF 50+ Anti Blemish Fluide Güneş Koruyucu 50 ml",
+        "price": "747.32"
+      },
+      {
+        "img": "assets/stores/pharmacy/p3.webp",
+        "name": "Bioderma Photoderm Cover Touch Mineral Spf50+ 40 gr - Very Light",
+        "price": "1015.20"
+      },
+      {
+        "img": "assets/stores/pharmacy/p4.webp",
+        "name": "Darphin Intral Environmental Lightweight Shield SPF 50 Yatıştırıcı Cilt Kremi 30 ml",
+        "price": "2449.30"
+      },
+      {
+        "img": "assets/stores/pharmacy/p5.webp",
+        "name": "Avene Anti-Age Solaire Güneş Kremi Spf50+ 50 ml",
+        "price": "1028.79"
+      },
+      {
+        "img": "assets/stores/pharmacy/p6.webp",
+        "name": "Avene Solaire Anti Age Teinte SPF50+ Yaşlanma Karşıtı Güneş Koruyucu 50 ml",
+        "price": "1049.30"
+      }
+    ]
+  },
+  {
+    "key": "kirtasiye",
+    "name": "i-Kırtasiye",
+    "vertical": "Kırtasiye & Oyuncak",
+    "color": "#1e3a8a",
+    "accent": "#ea580c",
+    "text": "#FFFFFF",
+    "logo": "assets/stores/kirtasiye/logo.webp",
+    "products": [
+      {
+        "img": "assets/stores/kirtasiye/p1.jpg",
+        "name": "Hot Wheels Tekli Araba N5785",
+        "price": "139.90"
+      },
+      {
+        "img": "assets/stores/kirtasiye/p2.jpg",
+        "name": "Hot Wheels 3’lü Araba Seti K5904",
+        "price": "479.90"
+      },
+      {
+        "img": "assets/stores/kirtasiye/p3.jpg",
+        "name": "Fisher Price Numaralı Kaplar W4472",
+        "price": "1054.90"
+      },
+      {
+        "img": "assets/stores/kirtasiye/p4.jpg",
+        "name": "Fisher Price Renkli Bloklar K7167",
+        "price": "1039.90"
+      },
+      {
+        "img": "assets/stores/kirtasiye/p5.jpg",
+        "name": "Barbie Şık Barbie T7439",
+        "price": "499.90"
+      },
+      {
+        "img": "assets/stores/kirtasiye/p6.jpg",
+        "name": "Cross Tükenmez Kalem Yedeği Mavi Fine 8512",
+        "price": "529.90"
+      }
+    ]
+  },
+  {
+    "key": "hirdavat",
+    "name": "i-Hırdavat",
+    "vertical": "Hırdavat & El Aletleri",
+    "color": "#0A1F44",
+    "accent": "#FFC72C",
+    "text": "#FFFFFF",
+    "logo": null,
+    "products": [
+      {
+        "img": "assets/stores/hirdavat/p1.png",
+        "name": "Bosch Professional GSS 140-1 A Titreşimli Zımpara",
+        "price": "6498.22"
+      },
+      {
+        "img": "assets/stores/hirdavat/p2.png",
+        "name": "Bosch Professional GSH 5 CE Kırıcı",
+        "price": "48604.04"
+      },
+      {
+        "img": "assets/stores/hirdavat/p3.png",
+        "name": "Bosch Professional GSH 7 VC Kırıcı",
+        "price": "60539.55"
+      },
+      {
+        "img": "assets/stores/hirdavat/p4.png",
+        "name": "Bosch Professional GSS 160 Multi Titreşimli Zımpara",
+        "price": "9681.02"
+      },
+      {
+        "img": "assets/stores/hirdavat/p5.png",
+        "name": "Bosch Professional GSH 27 VC Kırıcı",
+        "price": "141767.32"
+      },
+      {
+        "img": "assets/stores/hirdavat/p6.png",
+        "name": "Bosch Professional GSH 11 E Kırıcı",
+        "price": "58815.53"
+      }
+    ]
+  },
+  {
+    "key": "vitamin",
+    "name": "İstanbul Vitamin",
+    "vertical": "Vitamin & Takviye",
+    "color": "#7c3aed",
+    "accent": "#e11d48",
+    "text": "#FFFFFF",
+    "logo": null,
+    "products": [
+      {
+        "img": "assets/stores/vitamin/p1.webp",
+        "name": "Supradyn Kids Magic Beans 60 Çiğneme Tableti",
+        "price": "405.00"
+      },
+      {
+        "img": "assets/stores/vitamin/p2.webp",
+        "name": "Vitabest Day & Nite 60 Tablet",
+        "price": "494.64"
+      },
+      {
+        "img": "assets/stores/vitamin/p3.webp",
+        "name": "Sjomann’s Multivitamin Çiğnenebilir Jel Form 30 Adet",
+        "price": "319.90"
+      },
+      {
+        "img": "assets/stores/vitamin/p4.webp",
+        "name": "Tab İlaç Reprodo F 30 Saşe",
+        "price": "1192.00"
+      },
+      {
+        "img": "assets/stores/vitamin/p5.webp",
+        "name": "Naturalnest HNS Vitamin & Mineral Bitkisel Ekstre 60 Tablet",
+        "price": "338.53"
+      },
+      {
+        "img": "assets/stores/vitamin/p6.webp",
+        "name": "Natures Bounty Ester-C 500 mg 60 Tablet",
+        "price": "81.31"
+      }
+    ]
+  }
+]

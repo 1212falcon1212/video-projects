@@ -27,6 +27,7 @@
     "lint": "eslint src && tsc",
     "render": "remotion render SkypeakReel-Light out/skypeak-light.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4",
     "render:light": "remotion render SkypeakReel-Light out/skypeak-light.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4",
-    "render:dark": "remotion render SkypeakReel-Dark out/skypeak-dark.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"
+    "render:dark": "remotion render SkypeakReel-Dark out/skypeak-dark.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4",
+    "render:ipazaryeri": "remotion render IpazaryeriReel out/ipazaryeri-reel.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"
   }
 }

@@ -15,3 +15,6 @@ tassarım photo/
 public/assets/images/
 public/assets/videos/
 public/assets/sfx/
+
+# Local Claude settings
+.claude/settings.local.json

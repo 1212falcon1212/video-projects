@@ -475,7 +475,7 @@ const Scene6Final: React.FC<{ brandName: string; ctaLabel: string }> = ({
 export const IdepoReel: React.FC<VariantProps> = (props) => {
   return (
     <AbsoluteFill style={{ background: BRAND.bg }}>
-      <Sequence from={0} durationInFrames={60}>
+      <Sequence durationInFrames={60}>
         <Scene1BrandReveal brandName={props.brandName} introLabel={props.introLabel} />
       </Sequence>
       <Sequence from={60} durationInFrames={90}>

@@ -901,11 +901,10 @@ const SceneMediaToggle: React.FC<{
 // ============================================================
 const VideoPanel: React.FC<{
   src: string | undefined;
-  theme: Theme;
   startFrame: number;
   borderRadius?: number;
   videoStartFrom?: number; // video içinden başlama noktası (frame)
-}> = ({ src, theme, borderRadius = 24, videoStartFrom = 0 }) => {
+}> = ({ src, borderRadius = 24, videoStartFrom = 0 }) => {
   return (
     <div
       style={{
@@ -1037,7 +1036,7 @@ const SceneVideoShowcase: React.FC<{
           transformOrigin: 'center',
         }}
       >
-        <VideoPanel src={videos[0]} theme={theme} startFrame={0} borderRadius={28} />
+        <VideoPanel src={videos[0]} startFrame={0} borderRadius={28} />
       </div>
 
       {/* Video 2 — bottom-right, enters after split */}
@@ -1052,7 +1051,12 @@ const SceneVideoShowcase: React.FC<{
           opacity: v2Opacity,
         }}
       >
-        <VideoPanel src={videos[1]} theme={theme} startFrame={v2EntryStart} borderRadius={28} videoStartFrom={90} />
+        <VideoPanel
+          src={videos[1]}
+          startFrame={v2EntryStart}
+          borderRadius={28}
+          videoStartFrom={90}
+        />
       </div>
     </SceneTransition>
   );
@@ -1214,7 +1218,7 @@ export const SkypeakReel: React.FC<SkypeakVariantProps> = (props) => {
   return (
     <AbsoluteFill style={{ background: theme.bg }}>
 
-      <Sequence from={0} durationInFrames={120}>
+      <Sequence durationInFrames={120}>
         <Scene1BrandReveal
           introLabel={props.introLabel}
           theme={theme}
@@ -1263,7 +1267,7 @@ export const SkypeakReel: React.FC<SkypeakVariantProps> = (props) => {
 
       {/* === SFX LAYER — animasyon/geçiş ses efektleri === */}
       {/* Scene 1 logo reveal */}
-      <Sequence from={0} durationInFrames={30}>
+      <Sequence durationInFrames={30}>
         <Sfx name="rise" volume={0.7} />
       </Sequence>
       {/* Scene 1 intro pill (2. sn) */}
